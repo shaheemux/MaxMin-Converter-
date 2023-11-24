@@ -1,0 +1,51 @@
+.container{
+    text-align: center;
+    margin-top: 50px;
+    background-image: linear-gradient(white, grey);
+    border: solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 15px;
+    width: 50%;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+body{
+    background-image: radial-gradient(black,white);
+    background-repeat: no-repeat;
+    height: 100svh;
+}
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input{
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+result{
+    margin-top: 20px;
+    font-weight: bold;
+  }
